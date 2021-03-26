@@ -1,17 +1,17 @@
 public class WhileAndDoWhile {
     public static void main(String[] args) {
         int count = 1;
-        while (count != 6){ // only one condition, if we cant variable we have to define it outside.
+        while (count != 6) { // only one condition, if we cant variable we have to define it outside.
             System.out.println("Current while count value is " + count);
             count++; // need to manually increment
         }
-        for (count = 1; count !=6; count++){ //increment already set
+        for (count = 1; count != 6; count++) { //increment already set
             System.out.println("Current for count value is " + count);
         }
         //counts until count is set value
         count = 1;
-        while(true) {
-            if (count == 6){
+        while (true) {
+            if (count == 6) {
                 break;
             }
             System.out.println("Count while true value is " + count);

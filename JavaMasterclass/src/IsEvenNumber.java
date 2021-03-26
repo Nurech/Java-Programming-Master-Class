@@ -7,7 +7,7 @@ public class IsEvenNumber {
 
         while (number <= finishNumber) { // if it is less, keep counting
             number++; // add +1 if isEvenNumber is not number but if number is even number, then it prints it.
-            if (counter != 5){ // count only the first 5 even numbers then stop
+            if (counter != 5) { // count only the first 5 even numbers then stop
                 if (!isEvenNumber(number)) {
                     continue;
 
@@ -17,12 +17,10 @@ public class IsEvenNumber {
             }
         }
 
-        }
-        public static boolean isEvenNumber(int number){
-        if (number % 2 == 0){ // if it is divisible by 2 with no remainder its even != 0 would be odd
-            return true;
-        } else {
-            return false;
-        }
+    }
+
+    public static boolean isEvenNumber(int number) {
+        // if it is divisible by 2 with no remainder its even != 0 would be odd
+        return number % 2 == 0;
     }
 }
