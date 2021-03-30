@@ -1,10 +1,8 @@
-My Udemy course's scr material with my thoughts and comments on the subject.
+My Java Programming Masterclass for Software Developers exercises, challanges and walkthrough's.
 
-```yaml
-From time to time I will revist some of them. 
-Goal is to comment out the old stuff while bringing in the the new stuff.
-Any ideas? Let me know.
+The course can be found: https://www.udemy.com/course/java-the-complete-java-developer-course
 
-Course: Java Programming Masterclass for Software Developers: 55%
+Solutions: In many cases I created main() method within the exercise class to test the solution. 
+In that case, you need to remove main() before submitting the solution.
 
-```
+
