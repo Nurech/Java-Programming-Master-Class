@@ -2,18 +2,18 @@ package Section7.RoomOfHouse;
 
 public class Ceiling {
     private int height;
-    private int paintedColour;
+    private int paintedColor;
 
     public int getHeight() {
         return height;
     }
 
-    public int getPaintedColour() {
-        return paintedColour;
+    public int getPaintedColor() {
+        return paintedColor;
     }
 
     public Ceiling(int height, int paintedColour) {
         this.height = height;
-        this.paintedColour = paintedColour;
+        this.paintedColor = paintedColour;
     }
 }

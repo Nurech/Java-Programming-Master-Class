@@ -6,7 +6,7 @@ public class Lamp {
     private int globRating;
 
     public void turnOn(){
-        System.out.println("Lamp -> turning on");
+        System.out.println("Lamp -> Turning on");
     }
 
     public String getStyle() {
