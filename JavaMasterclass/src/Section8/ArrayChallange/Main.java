@@ -5,12 +5,13 @@ import java.util.Scanner;
 
 public class Main {
 
-    private static Scanner scanner = new Scanner(System.in);
+    private static final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
         int[] myIntegers = getIntegers(5);
         int[] sorted = sortIntegers(myIntegers); // sorted is Integers sorted
         printArray(sorted); //print sorted integers to console
+        System.out.println(("My integer to String: "+ myIntegers.toString() + " My integerArray to string length " + myIntegers.length));
     }
 
     // enter numbers

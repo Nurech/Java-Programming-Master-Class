@@ -12,7 +12,7 @@ public class Strings {
         // boolean
 
         // String (not a primitive type is CLASS, String is a sequence of characters, it cant be numbers
-        String myString = "This is a string";
+        String myString = "This is a \"exit\" string";
         System.out.println("MyString is = " + myString);
         myString = myString + " and this is more...";
         System.out.println("MyString is = " + myString);
