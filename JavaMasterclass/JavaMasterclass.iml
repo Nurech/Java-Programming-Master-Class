@@ -16,5 +16,6 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="aether-api-1.0.2.v20150114" level="project" />
   </component>
 </module>

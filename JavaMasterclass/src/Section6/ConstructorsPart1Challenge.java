@@ -16,7 +16,7 @@ public class ConstructorsPart1Challenge {
        bobsAccount.withdrawal(100);
 
        // instead of the above, lets use constructor overloading and lets call Account with parameters
-        Account bobbyAccount = new Account("12345", 0.00, "Bob Bobby", "bobby@com.com", "3214151");
+        Account bobbyAccount = new Account("12443", 0.00, "Bob Bobby", "bobby@com.com", "3214151");
         bobbyAccount.deposit(100);
         bobbyAccount.withdrawal(50);
         System.out.println(bobbyAccount.getBalance());
@@ -46,8 +46,7 @@ public class ConstructorsPart1Challenge {
         private String vipCustomerEmailAddress;
 
         //first constructor
-        public VipCustomer() {
-            this("Default name", 50000.00, "default@email.com");
+        public VipCustomer() { this("Default name", 50000.00, "default@email.com");
         }
         // second constructor
         public VipCustomer(String vipCustomerName, double creditLimit) {
